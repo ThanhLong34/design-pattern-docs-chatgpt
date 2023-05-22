@@ -1,1 +1,1 @@
-# design-pattern-docs-chatgpt
+# Design Pattern docs with ChatGPT
