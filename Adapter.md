@@ -59,3 +59,8 @@ Trong ví dụ trên, giao diện `ITarget` đại diện cho giao diện mà Cl
 Adapter Design Pattern cho phép chúng ta tích hợp các thành phần không tương thích với nhau một cách linh hoạt và tạo
 
  ra sự tương tác giữa chúng.
+ 
+Ví dụ: Chúng ta có interface MediaPlayer và lớp AudioPlayer cụ thể implement MediaPlayer. AudioPlayer có thể phát các tệp âm thanh định dạng mp3 theo mặc định.
+Chúng ta đang có một interface khác AdvancedMediaPlayer và các classes cụ thể implement interface AdvancedMediaPlayer. Các class này có thể phát các tệp định dạng vlc và mp4.
+Chúng ta muốn tạo AudioPlayer để chơi các định dạng khác. Để đạt được điều này, chúng tôi đã tạo một class MediaAdapter, nó implements the MediaPlayer interface và sử dụng các đối tượng AdvancedMediaPlayer để chơi định dạng bắt buộc.
+AudioPlayer sử dụng adapter của class MediaAdapter chuyển qua loại âm thanh mong muốn mà không cần biết class thực tế có thể phát định dạng mong muốn. AdapterPotypeDemo, class demo của chúng ta sẽ sử dụng class AudioPlayer để chơi các định dạng khác nhau.
