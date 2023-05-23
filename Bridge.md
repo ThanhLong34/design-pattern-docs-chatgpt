@@ -80,3 +80,5 @@ Khi chúng ta thay đổi lớp cụ thể thực hiện (implementor), ví dụ
 Abstraction" vẫn không bị ảnh hưởng và vẫn hoạt động như thông thường.
 
 Mẫu thiết kế Bridge giúp chúng ta tách biệt các thành phần và giảm sự phụ thuộc giữa chúng. Điều này mang lại sự linh hoạt và dễ dàng mở rộng trong quá trình phát triển phần mềm.
+
+Ví dụ: Trong một công ty có nhiều loại nhân viên. Mỗi loại nhân viên có một cách tính lương khác nhau. Chương trình quản lý nhân viên của bạn sẽ tính toán lương cho một nhân viên như thế nào họ chuyển từ loại này sang loại khác(hoặc chuyển từ phòng ban này sang phòng ban khác,). Ví dụ: Khi bạn apply vào vị trí developer của một công ty phần mềm, khi bắt đầu làm thì bạn là junior, một bậc cao hơn là senior, và cao hơn nữa là vai trò leader.Mỗi lần “lên cấp” như vậy là một lần thay đổi công thức tính lương.
