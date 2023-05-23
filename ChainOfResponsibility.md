@@ -82,3 +82,5 @@ Trong ví dụ trên, khi `Client` gọi phương thức `ProcessRequest` với 
  cầu, nó sẽ gửi yêu cầu này qua chuỗi các xử lý viên. Nếu một xử lý viên có thể xử lý yêu cầu, nó sẽ xử lý nó. Nếu không, yêu cầu sẽ được chuyển cho xử lý viên kế tiếp cho đến khi yêu cầu được xử lý hoặc không còn xử lý viên nào trong chuỗi có thể xử lý nó.
 
 Mẫu thiết kế Chain of Responsibility giúp chúng ta xây dựng các hệ thống linh hoạt và dễ mở rộng, vì chúng ta có thể thay đổi hoặc mở rộng chuỗi các xử lý viên mà không ảnh hưởng đến các thành phần khác trong hệ thống.
+
+Ví dụ: https://viblo.asia/p/chain-of-responsibility-design-pattern-tro-thu-dac-luc-cua-developers-yMnKMBNDZ7P****
