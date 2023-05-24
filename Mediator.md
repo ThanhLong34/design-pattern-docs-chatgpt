@@ -129,3 +129,5 @@ ConcreteColleague1 received: Hello from Colleague2!
 ```
 
 Ở đây, Mediator (ConcreteMediator) quản lý tương tác giữa hai đối tượng Colleague (ConcreteColleague1 và ConcreteColleague2). Các đối tượng không cần phải giao tiếp trực tiếp với nhau, mà thông qua Mediator để truyền thông điệp.
+
+Ví dụ: Một ví dụ thực tế về Mediator Design Pattern là hệ thống trò chuyện đa phương tiện (multi-user chat system). Trong hệ thống này, có nhiều người dùng (users) có thể gửi và nhận tin nhắn cho nhau. Mediator được sử dụng để quản lý và điều phối tất cả các hoạt động liên quan đến việc gửi và nhận tin nhắn giữa các người dùng.
