@@ -134,3 +134,5 @@ Trong C#, Iterator Design Pattern được triển khai bằng cách sử dụng
    Kết quả tương tự như trên.
 
 Iterator Design Pattern cho phép duyệt qua các phần tử trong một tập hợp mà không cần biết cấu trúc nội bộ của tập hợp đó. Điều này giúp tách biệt việc duyệt qua các phần tử khỏi việc xử lý logic trong tập hợp, làm cho mã nguồn linh hoạt và dễ bảo trì.
+
+Ví dụ: Giả sử bạn đang xây dựng một ứng dụng quản lý sách, và bạn cần duyệt qua danh sách các cuốn sách trong thư viện. Bạn muốn thực hiện việc duyệt qua danh sách này mà không cần tiết lộ cấu trúc nội bộ của thư viện cho các phần khác của ứng dụng.
