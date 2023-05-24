@@ -82,3 +82,6 @@ Abstraction" vẫn không bị ảnh hưởng và vẫn hoạt động như thô
 Mẫu thiết kế Bridge giúp chúng ta tách biệt các thành phần và giảm sự phụ thuộc giữa chúng. Điều này mang lại sự linh hoạt và dễ dàng mở rộng trong quá trình phát triển phần mềm.
 
 Ví dụ: Trong một công ty có nhiều loại nhân viên. Mỗi loại nhân viên có một cách tính lương khác nhau. Chương trình quản lý nhân viên của bạn sẽ tính toán lương cho một nhân viên như thế nào họ chuyển từ loại này sang loại khác(hoặc chuyển từ phòng ban này sang phòng ban khác,). Ví dụ: Khi bạn apply vào vị trí developer của một công ty phần mềm, khi bắt đầu làm thì bạn là junior, một bậc cao hơn là senior, và cao hơn nữa là vai trò leader.Mỗi lần “lên cấp” như vậy là một lần thay đổi công thức tính lương.
+
+Một ví dụ thực tế về việc sử dụng mẫu thiết kế Bridge có thể là hệ thống đồ họa trong một ứng dụng đa nền tảng. Giả sử bạn đang phát triển một ứng dụng vẽ đồ họa và bạn muốn hỗ trợ nhiều nền tảng như Windows, macOS và Linux.
+Trong trường hợp này, bạn có thể sử dụng mẫu thiết kế Bridge để tách biệt lớp giao diện đồ họa (abstraction) khỏi các lớp cụ thể thực hiện (implementations) cho từng nền tảng. Điều này giúp bạn có thể dễ dàng thay đổi hoặc mở rộng hỗ trợ cho các nền tảng mới mà không ảnh hưởng đến phần còn lại của ứng dụng.
